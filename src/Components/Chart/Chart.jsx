@@ -15,6 +15,14 @@ const Chart = () => {
           allow="clipboard-write"
           allowfullscreen
         ></iframe>
+
+        <iframe
+          width="100%"
+          height="690"
+          frameborder="0"
+          allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *"
+          src="https://flooz.trade/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampDefaultAmount=200&stakeDisabled=true&network=eth&lightMode=false&primaryColor=%23ffc000&backgroundColor=transparent&roundedCorners=18&padding=20"
+        ></iframe>
       </div>
     </section>
   );
