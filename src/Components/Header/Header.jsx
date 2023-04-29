@@ -16,21 +16,17 @@ const Header = () => {
   return (
     <header className="container-fluid header">
       <div className="container d-flex justify-content-between align-items-center">
-        <BrowserRouter>
-          <Link to="/">
-            <img src={logo} alt="logo" />
-          </Link>
-          <a href="" className="button text-capitalize d-flex gap-2">
-            <ChartSquare
-              color="#000"
-              size={24}
-              variant={current ? "Linear" : "Broken"}
-              onMouseOver={handleHoevr}
-              onMouseLeave={handleLeave}
-            />
-            buy now
-          </a>
-        </BrowserRouter>
+        <img src={logo} alt="logo" />
+        <a href="" className="button text-capitalize d-flex gap-2">
+          <ChartSquare
+            color="#000"
+            size={24}
+            variant={current ? "Linear" : "Broken"}
+            onMouseOver={handleHoevr}
+            onMouseLeave={handleLeave}
+          />
+          buy now
+        </a>
       </div>
     </header>
   );

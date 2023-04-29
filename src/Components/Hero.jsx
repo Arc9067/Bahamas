@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Hero.scss";
-import { FavoriteChart, Send2 } from "iconsax-react";
+import { BuyCrypto, Send2 } from "iconsax-react";
 import Logo from "../assets/logo.png";
 import Header from "./Header/Header";
 import { Link } from "react-router-dom";
@@ -37,10 +37,10 @@ const Hero = () => {
           </a>
           <img src={Logo} alt="" className="mt-3" />
 
-          <Link to="/chart" className="button chart mt-5">
-            View Chart{" "}
-            <FavoriteChart size="32" color="#ffc000" variant="Bulk" />
-          </Link>
+          <a href="" className="button chart mt-5">
+            View Chart
+            <BuyCrypto size="32" color="#ffc000" variant="Bulk" />
+          </a>
         </div>
       </section>
     </>
