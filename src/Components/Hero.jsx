@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import "./Hero.scss";
 import { BuyCrypto, Send2 } from "iconsax-react";
 import Logo from "../assets/logo.png";
-import Header from "./Header/Header";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [current, setCurrent] = useState(false);
