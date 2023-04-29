@@ -18,12 +18,14 @@ const Hero = () => {
     <>
       <section className="hero container-fluid">
         <div className="container d-flex flex-column align-items-center justify-content-center gap-2 ">
-          <h1 className="title p-2">Lorem ipsum dolor sit amet </h1>
-          <h1 className="title p-2">Lorem </h1>
+          <h1 className="title p-2 text-capitalize">
+            Say goodbye to taxes and hello
+          </h1>
+          <h1 className="title p-2 text-capitalize">paradise with Bahamas </h1>
           <p className="info text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nemo
-            veniam magni velit, maiores molestias, asperiores ab impedit
-            blanditiis dicta repudiandae nam quasi, dolore commodi?
+            Welcome to Bahamas on the Ethereum network! Enjoy the sun, sand, and
+            0% tax while making your dreams come true. Dive into the world of
+            decentralized finance and explore endless possibilities with us.
           </p>
           <a href="" className="button text-capitalize d-flex gap-2">
             <Send2
