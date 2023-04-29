@@ -1,0 +1,50 @@
+.hero {
+  width: 100%;
+  background: url(../assets/hero-bg.png) top left no-repeat;
+  background-size: cover;
+  padding-block: 100px;
+
+  h1.title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+    background: #069cb8;
+
+    @media (max-width: 700px) {
+      font-size: 32px;
+      line-height: 120%;
+    }
+  }
+  p.info {
+    max-width: 500px;
+  }
+
+  a.button {
+    padding: 16px 32px;
+    background: #fd7a23;
+    border-radius: 10000px;
+    font-family: "Gosha Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  a.chart {
+    background-color: #000;
+    color: #ffc000;
+  }
+  a.button:hover {
+    background-color: #ffc000;
+    color: #000;
+  }
+  a.chart:hover {
+    background-color: #fd7a23;
+  }
+}
