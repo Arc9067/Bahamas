@@ -10,13 +10,11 @@ const Chart = () => {
           width="100%"
           id="geckoterminal-embed"
           title="GeckoTerminal Embed"
-          src="https://www.geckoterminal.com/eth/pools/0xefb47fcfcad4f96c83d4ca676842fb03ef20a477?embed=1&info=0&swaps=0"
+          src="https://www.geckoterminal.com/eth/pools/0xcbcdf9626bc03e24f779434178a73a0b4bad62ed?embed=1&info=0&swaps=0"
           frameborder="0"
           allow="clipboard-write"
           allowfullscreen
         ></iframe>
-
-        
       </div>
     </section>
   );

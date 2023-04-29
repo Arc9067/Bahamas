@@ -16,10 +16,8 @@ const Hero = () => {
     <>
       <section className="hero container-fluid">
         <div className="container d-flex flex-column align-items-center justify-content-center gap-2 ">
-          <h1 className="title p-2 text-capitalize">
-            Say goodbye to taxes and hello
-          </h1>
-          <h1 className="title p-2 text-capitalize">paradise with Bahamas </h1>
+          <h1 className="title p-2 text-capitalize">Let’s go to bahamas!</h1>
+          {/* <h1 className="title p-2 text-capitalize">paradise with Bahamas </h1> */}
           <p className="info text-center">
             Welcome to Bahamas on the Ethereum network! Enjoy the sun, sand, and
             0% tax while making your dreams come true. Dive into the world of
